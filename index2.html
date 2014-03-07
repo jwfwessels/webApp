@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>calendar</title>
+    <link href="bootstrap-3.1.1/css/bootstrap.css" rel="stylesheet">
+    <!-- To better visualize the columns -->
+    <style>
+    .row > div {
+        box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+    }
+    </style>
+    <script src="scripts/libs/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="scripts/libs/underscore-1.6.0.js" type="text/javascript"></script>
+    <script src="scripts/libs/backbone-1.1.2.js" type="text/javascript"></script>
+    <script src="scripts/libs/backbone.localStorage-1.1.7.js" type="text/javascript"></script>
+    <script src="scripts/mocks/mock.js" type="text/javascript"></script>
+    <script src="scripts/utils.js" type="text/javascript"></script>
+    <script src="scripts/app/calendar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div id="calanderapp" class="container">
+        <header id="header">
+            <h1>Calendar</h1>
+        </header>
+        <div id="calendar-view">
+
+        <!-- Templates -->
+
+        <script type="text/template" id="day-template"><%= name %></script>
+
+
+    </div>
+</body>
+
+</html>
